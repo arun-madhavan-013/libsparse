@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.0.0)
 
-project(libsparse VERSION 30.0.0 DESCRIPTION "Linux port of android's sparse library(platform-tools-30.0.0)." LANGUAGES CXX)
+project(libsparse VERSION 30.0.0 LANGUAGES CXX)
 
+set(DESCRIPTION "Linux port of android's sparse library(platform-tools-30.0.0).")
 set(DEFAULT_BUILD_TYPE "Release")
 
 if(NOT DEFINED BUILD_SHARED_LIBS)
